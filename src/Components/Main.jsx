@@ -13,7 +13,7 @@ function Main(props) {
     const [loading, setLoading] = useState(true)
 
     async function created (name) {
-      const res = await fetch(`./${name}`)
+      const res = await fetch(`../Markdown/${name}`, {mode: 'no-cors'})
       const md = await res.text();
       return md
     };
