@@ -18,6 +18,8 @@ import {Alarm} from "@mui/icons-material";
 
 const sections = [
     { title: "Drink Diary", url: '#' },
+    { title: "Drag Race Opinions", url: '#'},
+    { title: "All Blog Entries", url: '#'},
     { title: 'About', url: '#' },
 ];
 
@@ -87,8 +89,8 @@ export default function Blog() {
                 </main>
             </Container>
             <Footer
-                title="Footer"
-                description="Something here to give the footer a purpose!"
+                title="Want to get in contact?"
+                description="Please don't"
             />
         </ThemeProvider>
     );
