@@ -48,9 +48,6 @@ function MainFeaturedPost(props) {
                         <Typography variant="h5" color="inherit" paragraph>
                             {post.description}
                         </Typography>
-                        <Link variant="subtitle1" href="#">
-                            {post.linkText}
-                        </Link>
                     </Box>
                 </Grid>
             </Grid>
@@ -63,7 +60,6 @@ MainFeaturedPost.propTypes = {
         description: PropTypes.string.isRequired,
         image: PropTypes.string.isRequired,
         imageText: PropTypes.string.isRequired,
-        linkText: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
     }).isRequired,
 };

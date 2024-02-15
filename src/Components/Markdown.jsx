@@ -46,5 +46,5 @@ const options = {
 };
 
 export default function Markdown(props) {
-    return <ReactMarkdown options={options} {...props} />;
+    return <ReactMarkdown align="left" options={options} {...props} />;
 }
