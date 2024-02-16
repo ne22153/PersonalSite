@@ -13,7 +13,7 @@ function Main(props) {
     const [loading, setLoading] = useState(true)
 
     async function created (name) {
-      const res = await fetch(`./${name}`)
+      const res = await fetch(`../public/${name}`)
       const md = await res.text();
       console.log(md)
       return md

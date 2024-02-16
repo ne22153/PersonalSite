@@ -62,7 +62,6 @@ const sidebar = {
     ],
 };
 
-// TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
 
 export default function Blog() {
@@ -79,7 +78,7 @@ export default function Blog() {
                         ))}
                     </Grid>*/}
                     <Grid container spacing={5} sx={{ mt: 3 }}>
-                        <Main title="From the firehose" posts={posts} />
+                        <Main title="Recent Posts" posts={posts} />
                         <Sidebar
                             title={sidebar.title}
                             description={sidebar.description}
